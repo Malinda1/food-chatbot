@@ -12,8 +12,8 @@ def get_str_from_food_dict(food_dict: dict):
     result = ", ".join([f"{int(value)} {key}" for key, value in food_dict.items()])
     return result
 
-if __name__ == "__main__":
-    print(get_str_from_food_dict({'Samosa': 2, 'Paneer Tikka': 1, 'Chai': 3}))
+#if __name__ == "__main__":
+    #print(get_str_from_food_dict({'Samosa': 2, 'Paneer Tikka': 1, 'Chai': 3}))
     # Example usage
     #session_str = "rojects/mira-chatbot-dbkb/agent/sessions/b6f2b7b5-76ee-5947-d9fd-c75e314c2b2f/contexts/ongoing-order"
     #session_id = extract_session_id(session_str)
